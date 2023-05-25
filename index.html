@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS 02 | Programação Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Média</h1>
+    </header>
+    <main>
+        <div class="duo-boxes">
+            <div class="box">
+                <h1>Digite o nome do aluno: </h1>
+                <input type="button" value="Nome" id="user_name" onclick="enviarNome()">
+            </div>
+            <div class="box">
+                <h1>Digite as notas: </h1>
+                <input type="button" value="Notas" id="user_grades" onclick="calcularMedia()">
+            </div>
+        </div>
+        <div class="large-box">
+            <h1>Nome do aluno:</h1>
+            <span id="nome"></span>
+            <h1>Resultado da média:</h1>
+            <span id="resultado"></span>
+            <h1>Resultado geral:</h1>
+            <span id="geral"></span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

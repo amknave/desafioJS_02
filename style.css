@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lexend', sans-serif;
+}
+
+header {
+    background-color: rgb(27, 27, 27);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 253, 96);
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 578px;
+    width: 100%;
+}
+
+.duo-boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background-color: rgb(27, 27, 27);
+    height: 200px;
+    width: 370px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: rgb(96, 253, 96);
+    font-size: medium;
+}
+
+.large-box {
+    background-color: rgb(27, 27, 27);
+    color: rgb(96, 253, 96);
+    font-size: medium;
+    border-radius: 10px;
+    height: 220px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: rgb(96, 253, 96);
+    color: black;
+    font-family: 'Lexend', sans-serif;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px;
+    font-size: large;
+}
+
+span {
+    font-family: 'Lexend', sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height: 25px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+input:hover{
+    cursor: pointer;
+    background-color: rgb(31, 83, 31);
+}
