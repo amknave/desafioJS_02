@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: rgb(27, 27, 27);
-    height: 60px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -29,8 +29,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    height: 578px;
+    gap: 30px;
+    height: 850px;
     width: 100%;
 }
 
@@ -41,13 +41,14 @@ main {
 
 .box {
     background-color: rgb(27, 27, 27);
-    height: 200px;
-    width: 370px;
+    height: 400px;
+    width: 500px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 30px;
     color: rgb(96, 253, 96);
     font-size: medium;
@@ -58,15 +59,16 @@ main {
     color: rgb(96, 253, 96);
     font-size: medium;
     border-radius: 10px;
-    height: 220px;
-    width: 370px;
+    height: 300px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 30px;
 }
 
-input {
+input{
     background-color: rgb(96, 253, 96);
     color: black;
     font-family: 'Lexend', sans-serif;
@@ -76,20 +78,11 @@ input {
     font-size: large;
 }
 
-span {
-    font-family: 'Lexend', sans-serif;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    height: 25px;
-    width: 70%;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 600;
-
+span{
+    height: 40px;
 }
 
-input:hover{
+.botao:hover{
     cursor: pointer;
     background-color: rgb(31, 83, 31);
 }

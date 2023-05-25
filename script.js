@@ -1,12 +1,12 @@
 function enviarNome(){
-    let nome = window.prompt("Digite seu nome: ")
+    let nome = document.getElementById("nome-recebido").value
     document.getElementById("nome").innerHTML = nome
 }
 
 function calcularMedia(){
-    let n1 = Number(window.prompt("Digite a primeira nota: "))
-    let n2 = Number(window.prompt("Digite a segunda nota: "))
-    let n3 = Number(window.prompt("Digite a terceira nota: "))
+    let n1 = Number.getElementById("Digite a primeira nota: ").value
+    let n2 = Number.getElementById("Digite a segunda nota: ").value
+    let n3 = Number.getElementById("Digite a terceira nota: ").value
     let media = (n1 + n2 + n3)/3
     document.getElementById("resultado").innerHTML = media
 
